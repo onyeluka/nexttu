@@ -3,22 +3,17 @@ import FeatureSvg from '@/constants/svg/features.svg';
 
 const listItems = [
   {
-    title: `Designers`,
-    description: `Officia et fugiat mollit qui. Dolor elit aliqua voluptate ipsum
-    excepteur cillum consequat consectetur duis magna qui eu consequat occaecat.
-    Deserunt nisi sit.`,
+    title: `Ecommerce Shop Owners`,
+    description: `We integrate with your Ecommerce shop and run our livestreaming directly to your shop.`,
   },
   {
-    title: `Developers`,
-    description: `Pariatur consectetur laboris exercitation duis laboris.
-    Commodo duis fugiat magna fugiat et ut anim elit. Tempor aute ex qui
-    tempor tempor.`,
+    title: `Business Owners`,
+    // eslint-disable-next-line max-len
+    description: `Seller Sea works for new business owners ready to make that first sale. Our complete solution includes Our Ecommerce solution and livestreaming service integrated seamlessly.`,
   },
   {
     title: `Product owners`,
-    description: `Ullamco consectetur ipsum eiusmod nisi adipisicing sint anim
-    dolore aute excepteur. Voluptate ea ullamco sunt eu elit qui aliquip.
-    Adipisicing.`,
+    description: `Looking to sell your product and no shop yet? we can help sell your product in our community.`,
   },
 ];
 
@@ -27,8 +22,8 @@ const ListSection = () => (
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
         <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Grow your revenue</h2>
-        <p className={tw(`mt-2 pb-4 text-5xl lg:text-7xl font-bold tracking-tight text-gray-900`)}>
-          Transform your business
+        <p className={tw(`mt-2 pb-4 text-3xl lg:text-4xl font-bold tracking-tight text-gray-900`)}>
+          Scale your business with our all in one solution
         </p>
       </div>
       <div className={tw(`flex flex-wrap -mx-8 items-center`)}>
