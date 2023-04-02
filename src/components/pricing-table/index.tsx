@@ -3,14 +3,14 @@ import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 
 const features = [
-  `Laboris nulla`,
-  `Lorem pariatur nisi`,
-  `Id aute amet pariatur`,
-  `Do duis sint aliquip`,
-  `Nostrud duis tempor`,
-  `Consequat eiusmod`,
-  `Reprehenderit`,
-  `Adipisicing reprehenderit`,
+  `1000 Viewers`,
+  `4K/HD  View`,
+  `15 Seats`,
+  `15 Backstage Participants`,
+  `4 Hours Prerecorded Stream`,
+  `Your Own Ecommerce Store`,
+  `1TB storage for Files and Videos`,
+  `24/7 Support and Fixes`,
 ];
 
 const PricingTable = () => (
@@ -18,11 +18,11 @@ const PricingTable = () => (
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex`)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Are you ready?</h2>
+          <h2 className={tw(`text-2xl lg:text-4xl font-bold text-gray-800 mb-12`)}>Get Started With SellerSea</h2>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500`)}>
-            Lorem id ullamco pariatur eiusmod labore qui deserunt incididunt deserunt nostrud. Tempor duis in
-            adipisicing exercitation ipsum nostrud esse. Reprehenderit cupidatat sint est deserunt id eiusmod amet
-            aliqua officia.
+            Start streaming your business to success. Focus on streaming and let SellerSea handle the rest, your current
+            sales growth estimation by letting you focus on the tiny details while we focus on focus on the heavy work
+            heavy work of order processing. Never miss a sale.
           </p>
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
@@ -56,7 +56,7 @@ const PricingTable = () => (
         >
           <p className={tw(`text-lg font-medium text-gray-800`)}>If you order now...</p>
           <div className={tw(`my-4 flex items-center justify-center text-6xl leading-none font-bold text-gray-800`)}>
-            $99/mo
+            $129.99/mo
           </div>
           <Button primary modifier="mt-6">
             Contact sales
