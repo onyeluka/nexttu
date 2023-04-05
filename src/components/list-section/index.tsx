@@ -21,7 +21,7 @@ const ListSection = () => (
   <section className={tw(`lg:py-28 pt-28 overflow-hidden`)}>
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8 bg-white`)}>
       <div className={tw(`mb-16 text-center`)}>
-        <h2 className={tw(`text-base text-indigo-600 font-semibold tracking-wide uppercase`)}>Grow your revenue</h2>
+        <h2 className={tw(`text-base text-yellow-400 font-semibold tracking-wide uppercase`)}>Grow your revenue</h2>
         <p className={tw(`mt-2 pb-4 text-3xl lg:text-4xl font-bold tracking-tight text-gray-900`)}>
           Scale your business with our all in one solution
         </p>

@@ -29,7 +29,7 @@ const PricingTable = () => (
               <h3
                 className={tw(
                   `flex-shrink-0 pr-4 text-sm leading-5
-                tracking-wider font-semibold uppercase text-indigo-600`,
+                tracking-wider font-semibold uppercase text-yellow-400`,
                 )}
               >
                 What is included

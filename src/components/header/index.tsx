@@ -18,7 +18,7 @@ const Header = () => (
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
         <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-2xl`)}>
-          SellerSea Makes it easy to stream your product, take orders and manage your store - orders, analytics,
+          SellerSea makes it easy to stream your product, take orders and manage your store - orders, analytics,
           shipping.
         </p>
       </div>

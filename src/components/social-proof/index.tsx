@@ -4,22 +4,16 @@ import Quote from '@/constants/svg/quote.svg';
 
 const socialProofs = [
   {
-    name: `John Doe`,
-    company: `Alphabet Inc.`,
+    name: `Miika Hautamaki`,
+    company: `Dream Inc.`,
     image: `/images/social-1.webp`,
-    text: `Commodo Lorem consequat ea consectetur pariatur proident excepteur.
-    Pariatur eiusmod minim minim ipsum tempor aute excepteur minim eu nisi laboris.
-    Duis sunt labore eu eu cupidatat labore commodo id aliquip.`,
+    text: `One of the very best livestreaming solution out there.`,
   },
   {
-    name: `Jack Doe`,
+    name: `Luka Doe`,
     company: `Amazon.com, Inc.`,
     image: `/images/social-2.webp`,
-    text: `Anim labore ut amet cupidatat pariatur pariatur labore ad est.
-    Fugiat eiusmod dolore aliquip aute duis esse excepteur amet.
-    Sit cupidatat ipsum culpa nisi esse ipsum culpa in consectetur.
-    Enim incididunt do sunt ex do. Proident duis nulla minim sunt irure est
-    magna nostrud Lorem consectetur irure.`,
+    text: `I love the sellersea app.`,
   },
 ];
 
