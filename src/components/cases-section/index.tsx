@@ -45,17 +45,17 @@ const ParticleBg = () => (
 
 const articles = [
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
+    title: `Stream your store. We handle everything until checkout.`,
     image: `/images/case-1.webp`,
     alt: `Proident pariatur est.`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
+    title: `Stream with your team. Just stream and SellerSea handles the rest.`,
     image: `/images/case-2.webp`,
     alt: `Proident pariatur est.`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
+    title: `Stream your service. Focus on your service, we do the setup.`,
     image: `/images/case-3.webp`,
     alt: `Proident pariatur est.`,
   },

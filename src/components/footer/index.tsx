@@ -76,40 +76,22 @@ const Footer = () => (
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Follow Us</h4>
               <ul className="flex-col items-center justify-center">
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="/">
-                    <AiFillMessage size={20} color="grey" />
-                    {socialLinks[4]}
-                  </a>
+                  <a href="/">{socialLinks[4]}</a>
                 </li>
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="/">
-                    <AiFillInstagram size={20} color="grey" />
-                    {socialLinks[3]}
-                  </a>
+                  <a href="/">{socialLinks[3]}</a>
                 </li>
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="/">
-                    <AiFillFacebook size={20} color="grey" />
-                    {socialLinks[0]}
-                  </a>
+                  <a href="/">{socialLinks[0]}</a>
                 </li>
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="/">
-                    <AiFillYoutube size={20} color="grey" />
-                    {socialLinks[1]}
-                  </a>
+                  <a href="/">{socialLinks[1]}</a>
                 </li>
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="https://www.linkedin.com/company/seller-sea-oy/">
-                    <AiFillLinkedin size={20} color="grey" />
-                    {socialLinks[2]}
-                  </a>
+                  <a href="https://www.linkedin.com/company/seller-sea-oy/">{socialLinks[2]}</a>
                 </li>
                 <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
-                  <a href="/">
-                    <AiFillTwitterCircle size={20} color="grey" />
-                    {socialLinks[5]}
-                  </a>
+                  <a href="/">{socialLinks[5]}</a>
                 </li>
               </ul>
             </div>
