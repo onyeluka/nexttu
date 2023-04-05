@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "@fontsource/inter": "4.2.1",
+    "@notice-org/react-notice": "1.0.0",
     "@svgr/webpack": "5.5.0",
     "next": "10.0.7",
     "next-seo": "4.20.0",
