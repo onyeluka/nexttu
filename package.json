@@ -12,9 +12,9 @@
     "tailwind",
     "theme"
   ],
-  "engines" : { 
-    "npm" : ">=8.0.0 <9.0.0",
-    "node" : ">=16.0.0 <17.0.0"
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
   },
   "scripts": {
     "dev": "next",
@@ -38,6 +38,7 @@
     "next-seo": "4.20.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-icons": "4.8.0",
     "react-particles-js": "3.4.1",
     "twind": "0.15.4"
   },

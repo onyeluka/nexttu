@@ -1,20 +1,18 @@
 import { tw } from 'twind';
 // import Button from '@/components/button';
+import {
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillTwitterCircle,
+  AiFillMessage,
+} from 'react-icons/ai';
 
 const productLinks = [`Features`, `Customers`, `Platform`, `Pricing`, `Enterprise`, `What's new?`];
 const aboutLinks = [`About Us`, `Careers`, `Leadership`, `Blog`, `Events`, `Press`];
-const resourceLinks = [
-  `Get started`,
-  `Guides`,
-  `Tools`,
-  `Case studies`,
-  `Solutions`,
-  `FAQs`,
-  `Help Center`,
-  `Training`,
-  `Other resources`,
-];
-const socialLinks = [`Facebook`, `Youtube`, `LinkedIn`, `Webinar`];
+const resourceLinks = [`Get started`, `Guides`, `Tools`, `FAQs`, `Help Center`, `Training`];
+const socialLinks = [`Facebook`, `Youtube`, `LinkedIn`, `Instagram`, `Webinar`, `Twitter`];
 const sellerFor = [`Business`, `individual`];
 
 const Footer = () => (
@@ -76,12 +74,43 @@ const Footer = () => (
           <li className={tw(`w-1/2 md:w-1/3 lg:w-1/5`)}>
             <div>
               <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Follow Us</h4>
-              <ul>
-                {socialLinks.map((link) => (
-                  <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={link}>
-                    <a href="/">{link}</a>
-                  </li>
-                ))}
+              <ul className="flex-col items-center justify-center">
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="/">
+                    <AiFillMessage size={20} color="grey" />
+                    {socialLinks[4]}
+                  </a>
+                </li>
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="/">
+                    <AiFillInstagram size={20} color="grey" />
+                    {socialLinks[3]}
+                  </a>
+                </li>
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="/">
+                    <AiFillFacebook size={20} color="grey" />
+                    {socialLinks[0]}
+                  </a>
+                </li>
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="/">
+                    <AiFillYoutube size={20} color="grey" />
+                    {socialLinks[1]}
+                  </a>
+                </li>
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="https://www.linkedin.com/company/seller-sea-oy/">
+                    <AiFillLinkedin size={20} color="grey" />
+                    {socialLinks[2]}
+                  </a>
+                </li>
+                <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}>
+                  <a href="/">
+                    <AiFillTwitterCircle size={20} color="grey" />
+                    {socialLinks[5]}
+                  </a>
+                </li>
               </ul>
             </div>
           </li>
