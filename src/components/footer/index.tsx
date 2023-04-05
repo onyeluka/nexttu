@@ -1,16 +1,8 @@
 import { tw } from 'twind';
 // import Button from '@/components/button';
-import {
-  AiFillLinkedin,
-  AiFillYoutube,
-  AiFillFacebook,
-  AiFillInstagram,
-  AiFillTwitterCircle,
-  AiFillMessage,
-} from 'react-icons/ai';
 
 const productLinks = [`Features`, `Customers`, `Platform`, `Pricing`, `Enterprise`, `What's new?`];
-const aboutLinks = [`About Us`, `Careers`, `Leadership`, `Blog`, `Events`, `Press`];
+const aboutLinks = [`About Us`, `Blog`, `Events`];
 const resourceLinks = [`Get started`, `Guides`, `Tools`, `FAQs`, `Help Center`, `Training`];
 const socialLinks = [`Facebook`, `Youtube`, `LinkedIn`, `Instagram`, `Webinar`, `Twitter`];
 const sellerFor = [`Business`, `individual`];
